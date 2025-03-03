@@ -1,0 +1,26 @@
+-- SQL Query to calculate summary statistics for numerical columns
+SELECT 
+	COUNT(*) AS total_customers, 
+	AVG(store_id) AS average_store_id, 
+	MIN(store_id) AS min_store_id, 
+	MAX(store_id) AS max_store_id, 
+	AVG(active) AS average_active, 
+	MIN(active) AS min_active, 
+	MAX(active) AS max_active, 
+	AVG(customer_id) AS average_customer_id, 
+	MIN(customer_id) AS min_customer_id, 
+	MAX(customer_id) AS max_customer_id, 
+	AVG(address_id) AS average_address_id, 
+	MIN(address_id) AS min_address_id, 
+	MAX(address_id) AS max_address_id, 
+	MIN(create_date) AS min_create_date, 
+	MAX(create_date) AS max_create_date 
+	FROM customer; 
+
+
+-- SQL Query to calculate summary statistics for non-numerical columns
+SELECT  
+	MODE() WITHIN GROUP (ORDER BY first_name) AS modal_first_name, 
+	MODE() WITHIN GROUP (ORDER BY last_name) AS modal_last_name, 
+	MODE() WITHIN GROUP (ORDER BY email) AS modal_email 
+FROM customer;
