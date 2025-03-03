@@ -35,7 +35,7 @@ Payments: Records of transactions and revenue details.
 
 
 ## View visualizations here:
-https://public.tableau.com/views/rockbusterproject/ROCKBUSTERPROJECT?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link'
+[Click here](https://public.tableau.com/views/rockbusterproject/ROCKBUSTERPROJECT?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link')
 
 
-[Google](https://www.google.com)
+
