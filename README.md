@@ -21,7 +21,9 @@ world.the Rockbuster Stealth management team is planning to use its existing mov
 
 
 pgAdmin4: For managing PostgreSQL databases.
+
 PostgreSQL: Relational database management system (RDBMS) used to store and query Rockbuster's data.
+
 Tableau Public: Platform for creating and sharing interactive data visualizations.
 
 
